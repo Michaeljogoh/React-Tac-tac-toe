@@ -1,0 +1,38 @@
+
+.App {
+  text-align: center;
+}
+
+.game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 300px;
+  height: 300px;
+  border: 1px solid #555 ;
+  text-align: center;
+
+  
+}
+
+.game div {
+  width: 33.33%;
+  height: 33.33%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  align-items: center;
+  font-weight: 600;
+  color: #555;
+  float: left;
+  background-color: #eee;
+  border: 1px solid #555;
+
+
+
+}
+
+
