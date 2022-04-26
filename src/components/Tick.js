@@ -57,6 +57,10 @@ const handleclick = (id) => {
   }
   setSpace(square)
   winningCombination(square)
+
+  if(square.includes("") === false) {
+    alert("draw")
+  }
   console.log(square)
  
 }
